@@ -2,9 +2,10 @@
 
 /**
  * main - return size of various types on the computer,
+ * it is compiled and run on.
  * Return: 0 if exited properly, non-zero otherwise
- * */
-int main(vodi)
+ */
+int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
