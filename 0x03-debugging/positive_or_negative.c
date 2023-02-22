@@ -10,7 +10,7 @@
  * Return: 0 if code successfully execute , otherwise non-zero
  */
 
-int positive_or_negative(int i)
+void positive_or_negative(int i)
 {
 	srand(time(0));
 	i = rand() - RAND_MAX / 2;
@@ -27,5 +27,4 @@ int positive_or_negative(int i)
 	{
 		printf("%d is negative\n", i);
 	}
-	return (0);
 }
