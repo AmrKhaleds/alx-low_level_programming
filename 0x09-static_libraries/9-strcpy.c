@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _strcpy - copy a string
  * @dest: Destination String pointer.
