@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * factorial - Calculates factorial number.
  * @n: number to calculate factorial.
