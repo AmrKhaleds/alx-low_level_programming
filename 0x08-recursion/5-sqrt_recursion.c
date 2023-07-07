@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 int _root_sqrt(int raiz, int cont);
 
 /**
