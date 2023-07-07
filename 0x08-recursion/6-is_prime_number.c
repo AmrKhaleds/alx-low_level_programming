@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 int calculo_primo(int num_, int inf);
 
 /**
