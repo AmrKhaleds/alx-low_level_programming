@@ -1,15 +1,22 @@
-# 0x08. C - Recursion
+# 0x09. C - Static libraries
 
 ## Resources
 
 ### Read or watch:
 
 
-    0x08. Recursion, introduction
-    What on Earth is Recursion?
-    C - Recursion
-    C Programming Tutorial 85, Recursion pt.1
-    C Programming Tutorial 86, Recursion pt.2
+    What Is A C Library? What Is It Good For?
+    Creating A Static C Library Using ar and ranlib
+    Using A C Library In A Program
+    What is difference between Dynamic and Static library(Static and Dynamic linking) (stop at 4:44)
+    C static libraries
+
+### man or help:
+
+
+    ar
+    ranlib
+    nm
 
 ## Learning Objectives
 
@@ -18,15 +25,12 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ### General
 
 
-    What is recursion
-    How to implement recursion
-    In what situations you should implement recursion
-    In what situations you shouldnt implement recursion
-
+    What is a static library, how does it work, how to create one, and how to use it
+    Basic usage of ar, ranlib, nm
 
 ## Requirements
 
-### General
+### C
 
 
     Allowed editors: vi, vim, emacs
@@ -43,16 +47,21 @@ At the end of this project, you are expected to be able to explain to anyone, wi
     In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you dont have to push them to your repo (if you do we wont take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
     The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called holberton.h
     Dont forget to push your header file
-    You are not allowed to use any kind of loops
-    You are not allowed to use static variables
 
-|TASKS | Description|
-|0. She locked away a secret | function that prints a string, followed by a new line|
-|1. Why is it so important to dream?| function that prints a string in reverse.|
-|2. Dreams feel real while we're in them.| function that returns the length of a string.|
-|3. You mustn't be afraid to dream a little bigger, darling| function that returns the factorial of a given number.|
-|4. Once an idea has taken hold of the brain| function that returns the value of x raised to the power of y.|
-|5. Your subconscious is looking for the dreamer| function that returns the natural square root of a number.|
-|6. Inception. Is it possible? | function that returns 1 if the input integer is a prime number, |
-|7. They say we only use a fraction of our brain's true potential. | function that returns 1 if a string is a palindrome and 0 if not.|
+### Bash
 
+
+    Allowed editors: vi, vim, emacs
+    All your scripts will be tested on Ubuntu 14.04 LTS
+    All your files should end with a new line (why?)
+    The first line of all your files should be exactly #!/bin/bash
+    A README.md file, at the root of the folder of the project, describing what each script is doing
+    All your files must be executable
+
+## More Info
+
+You do not need to learn about dynamic libraries, yet.
+
+| TASKS | DESCRIPTION |
+|0. A library is not a luxury but one of the necessities of life  | static library libholberton.a containing all the functions listed |
+|1. Without libraries what have we? | script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory. | 
