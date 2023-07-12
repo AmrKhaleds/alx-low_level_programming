@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 int _strlen_recursion(char *len);
 int palindrome(char *txt, int ini, int end);
 
