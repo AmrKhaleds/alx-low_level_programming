@@ -3,7 +3,7 @@
 /**
  * _strlen_recursion - function that returns the length of a string
  * @s: char
- *
+ * @counter: counter variable
  * Return: On Success 1.
  */
 
